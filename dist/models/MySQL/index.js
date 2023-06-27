@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Usuario = exports.TipoIncidente = exports.TipoDocumento = exports.Role = exports.Incidente = exports.EstadoIncidente = exports.Dependencia = void 0;
+const dependencia_1 = __importDefault(require("./dependencia"));
+exports.Dependencia = dependencia_1.default;
+const estadoIncidente_1 = __importDefault(require("./estadoIncidente"));
+exports.EstadoIncidente = estadoIncidente_1.default;
+const incidente_1 = __importDefault(require("./incidente"));
+exports.Incidente = incidente_1.default;
+const role_1 = __importDefault(require("./role"));
+exports.Role = role_1.default;
+const tipoDocumento_1 = __importDefault(require("./tipoDocumento"));
+exports.TipoDocumento = tipoDocumento_1.default;
+const tipoIncidente_1 = __importDefault(require("./tipoIncidente"));
+exports.TipoIncidente = tipoIncidente_1.default;
+const usuario_1 = __importDefault(require("./usuario"));
+exports.Usuario = usuario_1.default;

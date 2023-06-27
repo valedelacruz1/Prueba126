@@ -1,0 +1,24 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.buscarRoutes = exports.usuarioRoutes = exports.tipoIncidenteRoutes = exports.tipoDocumentoRoutes = exports.roleRoutes = exports.incidenteRoutes = exports.estadoIncidenteRoutes = exports.dependenciaRoutes = exports.authRoutes = void 0;
+const auth_routes_1 = __importDefault(require("../routes/auth.routes"));
+exports.authRoutes = auth_routes_1.default;
+const dependencia_Routes_1 = __importDefault(require("../routes/dependencia.Routes"));
+exports.dependenciaRoutes = dependencia_Routes_1.default;
+const estadoIncidente_Routes_1 = __importDefault(require("../routes/estadoIncidente.Routes"));
+exports.estadoIncidenteRoutes = estadoIncidente_Routes_1.default;
+const incidente_Routes_1 = __importDefault(require("../routes/incidente.Routes"));
+exports.incidenteRoutes = incidente_Routes_1.default;
+const role_Routes_1 = __importDefault(require("../routes/role.Routes"));
+exports.roleRoutes = role_Routes_1.default;
+const tipoDocumento_Routes_1 = __importDefault(require("../routes/tipoDocumento.Routes"));
+exports.tipoDocumentoRoutes = tipoDocumento_Routes_1.default;
+const tipoIncidente_Routes_1 = __importDefault(require("../routes/tipoIncidente.Routes"));
+exports.tipoIncidenteRoutes = tipoIncidente_Routes_1.default;
+const usuario_Routes_1 = __importDefault(require("../routes/usuario.Routes"));
+exports.usuarioRoutes = usuario_Routes_1.default;
+const buscar_routes_1 = __importDefault(require("../routes/buscar.routes"));
+exports.buscarRoutes = buscar_routes_1.default;
