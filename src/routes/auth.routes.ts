@@ -12,10 +12,11 @@ import validarJWT from "../middlewares/validar-jwt";
 import { enviarMensajeReq } from "../helpers/sendEmail";
 
 
-
-
 const router = Router();
 
+router.get ("/lunes", (req , res) => {
+  res.send ("Hola")
+});
 //Obtener todos las dependencias registrados
 router.post(
   "/login",
